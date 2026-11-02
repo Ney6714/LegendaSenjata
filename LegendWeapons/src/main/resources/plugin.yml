@@ -1,0 +1,15 @@
+name: LegendWeapons
+version: '1.0'
+main: com.narsmp.legend.LegendWeapons
+api-version: '1.21'
+author: NarSMP
+description: Senjata legend NarSMP (slash effect + kill skill)
+commands:
+  legend:
+    description: Beri senjata legend
+    usage: /legend <give|list>
+    aliases: [legendweapon, lw]
+permissions:
+  legend.admin:
+    description: Boleh memberi senjata legend
+    default: op

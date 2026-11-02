@@ -1,0 +1,34 @@
+# Angka senjata legend. Ubah lalu ketik /legend reload (tanpa restart).
+# damage 2.0 = 1 hati. cooldown dalam detik.
+
+aura: true   # api/petir yang berputar di badan saat pegang senjata (false = mati)
+
+lightning_sword:
+  hit-bonus: 1.5          # damage tambahan tiap pukulan
+  proc-damage: 2.0        # damage tambahan saat petir menyambar
+  proc-cooldown: 3        # jeda petir saat memukul
+  kill-speed-seconds: 3   # lama speed setelah membunuh
+  skill-damage: 5.0       # skill klik kanan (Thunder Strike)
+  skill-cooldown: 15
+
+warden_axe:
+  hit-bonus: 2.0
+  proc-cooldown: 4        # jeda sonic boom saat memukul
+  kill-absorb-seconds: 5  # lama absorption setelah membunuh
+  skill-damage: 6.0       # skill klik kanan (Sonic Boom)
+  skill-cooldown: 18
+
+dracula_blade:
+  hit-bonus: 1.0
+  hit-heal: 1.0           # heal tiap pukulan (2.0 = 1 hati)
+  kill-heal: 3.0
+  skill-damage: 4.0       # skill klik kanan (Blood Drain), 1 target
+  skill-heal: 3.0         # heal dari skill (2.0 = 1 hati)
+  skill-cooldown: 20
+
+sparta_blade:
+  hit-bonus: 1.5
+  proc-cooldown: 4
+  kill-buff-seconds: 5    # lama strength + resistance setelah membunuh
+  skill-damage: 4.0       # skill klik kanan (Spartan Charge)
+  skill-cooldown: 15
